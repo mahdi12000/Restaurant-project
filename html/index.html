@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../javascript/main.js"></script>
+    <title>FindREstaurant</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <img src="../images/logo.png" alt="logo">
+            <button value="log in" id="login">Log in</button>
+            <button value="sign up" id="sign">sign up</button>
+            <a href="https://www.google.com/">Register My Restaurant</a>
+        </div>
+    </header>
+
+    <div id="Login">
+        <form action="../php/login.php" method="post">
+            <label for="adresse" id="lb1">Email</label><br>
+            <input type="text" id="adresse" name="email"><br>
+            <label for="motdepasse" id="lb2">password</label><br>
+            <input type="password" id="motdepasse" name="password">
+            <button id="connexion" type="submit" name="connexion">Log in</button>
+            <button id="disparait">x</button>
+        </form>
+    </div>
+    <div id="Sign">
+        <form action="../php/sign_up.php" method="post">
+            <label for="firstname" id="Lb3">firstname</label><br>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname" id="Lb4">lastname</label><br>
+            <input type="text" name="lastname" id="lastname">
+            <label for="Adresse" id="Lb1">email</label><br>
+            <input type="email" id="Adresse" name="Adresse"><br>
+            <label for="Motdepasse" id="Lb2">password</label><br>
+            <input type="password" id="Motdepasse" name="Motdepasse">
+            <button id="Connexion" name="sign_up" type="submit">sign up</button>
+            <button id="Disparait">x</button>
+        </form>
+    </div>
+
+    <main>
+        <div id="recherche">
+            <form action="../php/offres.php" method="post">
+                <h2>Search All Retarauts</h2>
+                <label for="what">what</label><br>
+                <input type="text" id="what" placeholder="pizza, ice creme"><br>
+                <label for="where">where</label><br>
+                <input type="text" id="where" placeholder="paris, Roma"><br>
+                <button value="search" id="search">SEARCH</button>
+            </form>
+        </div>
+
+        <div id="imagehome">
+            <img src="../images/pitzza.jpg" alt="pizza image">
+        </div>
+        <h1 id="some">some Restaurants</h1>
+        <div id="R1">
+            <a href=""><img src="../images/R1.jpg" alt="R1">
+                <h3>Miamour Restaurant</h3>
+            </a>
+        </div>
+        <div id="R2">
+            <a href=""><img src="../images/R2.jpg" alt="R2">
+                <h3>flights Restaurant</h3>
+            </a>
+        </div>
+        <div id="R3">
+            <a href=""><img src="../images/R3.jpg" alt="R3">
+                <h3>friends Restaurant</h3>
+            </a>
+        </div>
+        <div id="R4">
+            <a href=""> <img src="../images/R4.jpg" alt="R4">
+                <h3>toujours Restaurant</h3>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <a href="#">
+            <h3>about us</h3>
+        </a>
+        <a href="#">
+            <h3>contact us</h3>
+        </a>
+        <h3>@2023 FindRestaurant.com All rights Reserved</h3>
+    </footer>
+</body>
+
+</html>

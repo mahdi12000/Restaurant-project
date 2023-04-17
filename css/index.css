@@ -1,0 +1,358 @@
+body {
+    background-color: rgb(204, 201, 197);
+}
+
+#header {
+    width: 100%;
+    height: 2cm;
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    margin-top: -6mm;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+#login {
+    position: absolute;
+    background-color: blue;
+    right: 1cm;
+    width: 100px;
+    height: 40px;
+    margin-top: 0.2cm;
+    margin-right: 3cm;
+    border-radius: 2mm;
+}
+
+#sign {
+    position: absolute;
+    background-color: white;
+    right: 1cm;
+    width: 100px;
+    height: 40px;
+    margin-top: 0.2cm;
+    border-radius: 2mm;
+}
+
+#recherche {
+    background-color: white;
+    width: 400px;
+    margin-left: 2cm;
+    margin-top: 3cm;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+}
+
+#search {
+    position: relative;
+    width: 7cm;
+    height: 37px;
+    left: 5mm;
+    margin-top: 7mm;
+    margin-left: 0.5cm;
+    background-color: blue;
+    border-radius: 2mm;
+}
+
+#recherche label {
+    margin-left: 1cm;
+    margin-bottom: 2mm;
+    font-size: larger;
+}
+
+#what {
+    width: 7cm;
+    height: 0.6cm;
+    margin-left: 1cm;
+}
+
+#where {
+    width: 7cm;
+    height: 0.6cm;
+    margin-left: 1cm;
+}
+
+#imagehome {
+    display: inline-block;
+    width: 20cm;
+    height: 14cm;
+    position: absolute;
+    right: 1cm;
+    top: 1cm;
+}
+
+#imagehome img {
+    width: 21cm;
+    height: 15cm;
+    margin-top: 1cm;
+}
+
+#recherche h2 {
+    margin-left: 0.8cm;
+}
+
+#R1 {
+    position: absolute;
+    top: 20cm;
+    left: 3cm;
+}
+
+#R1 img {
+    height: 200px;
+    width: 244px;
+
+}
+
+#R1 h3 {
+    margin-left: 0.8cm;
+    margin-top: 1mm;
+    color: blue;
+}
+
+#R2 {
+    position: absolute;
+    top: 20cm;
+    left: 10.5cm;
+}
+
+#R2 img {
+    height: 200px;
+    width: 244px;
+}
+
+#R2 h3 {
+    margin-left: 0.8cm;
+    margin-top: 1mm;
+    color: blue;
+}
+
+#R3 {
+    position: absolute;
+    top: 20cm;
+    left: 18cm;
+    color: blue;
+}
+
+#R3 img {
+    height: 200px;
+    width: 244px;
+}
+
+#R3 h3 {
+    margin-left: 0.8cm;
+    margin-top: 1mm;
+    color: blue;
+}
+
+#R4 {
+    position: absolute;
+    top: 20cm;
+    left: 25.5cm;
+}
+
+#R4 img {
+    height: 200px;
+    width: 244px;
+}
+
+#R4 h3 {
+    margin-left: 0.8cm;
+    margin-top: 1mm;
+    color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 26cm;
+    height: 3cm;
+}
+
+footer a {
+    color: white;
+}
+
+#some {
+    color: blue;
+    position: relative;
+    top: 18cm;
+    margin-left: 2.7cm;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header a {
+    color: blue;
+}
+
+#Login {
+    display: none;
+    position: absolute;
+    top: 1.3cm;
+    left: 27.5cm;
+    z-index: 9999;
+    border: 1mm solid blue;
+    height: 10cm;
+    width: 8cm;
+    background-color: rgb(204, 201, 197);
+    ;
+}
+
+#lb1 {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 6mm;
+    margin-left: 3mm;
+}
+
+#adresse {
+    width: 6cm;
+    height: 6mm;
+    position: relative;
+    top: 8mm;
+    margin-left: 3mm;
+}
+
+#lb2 {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 15mm;
+    margin-left: 3mm;
+}
+
+#motdepasse {
+    width: 6cm;
+    height: 6mm;
+    position: relative;
+    top: 16mm;
+    margin-left: 3mm;
+}
+
+#connexion {
+    position: relative;
+    top: 2cm;
+    background-color: blue;
+    height: 7mm;
+    border-radius: 1mm;
+    margin-left: 5mm;
+    width: 20mm;
+}
+
+.blur {
+    opacity:0.23;
+    /* pointer-events: none; */
+}
+
+#disparait{
+    position: absolute;
+    top: 0mm;
+    right: 0mm;
+}
+
+#disparait:hover{
+    background-color: red;
+}
+
+#Sign{
+    display: none;
+    position: absolute;
+    top: 1.3cm;
+    left: 27.5cm;
+    z-index: 9999;
+    border: 1mm solid blue;
+    height: 10cm;
+    width: 8cm;
+    background-color: rgb(204, 201, 197);
+    ;
+}
+
+#Disparait{
+    position: absolute;
+    top: 0mm;
+    right: 0mm;
+}
+
+#Disparait:hover{
+    background-color: red;
+}
+
+#Lb1 {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 24mm;
+    margin-left: 3mm;
+}
+
+#Adresse {
+    width: 6cm;
+    height: 6mm;
+    position: relative;
+    top: 26mm;
+    margin-left: 3mm;
+}
+
+#Lb2 {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 33mm;
+    margin-left: 3mm;
+}
+
+#Motdepasse {
+    width: 6cm;
+    height: 6mm;
+    position: relative;
+    top: 36mm;
+    margin-left: 3mm;
+}
+
+#Connexion {
+    position: relative;
+    top: 39mm;
+    background-color: blue;
+    height: 7mm;
+    border-radius: 1mm;
+    margin-left: 5mm;
+    width: 20mm;
+}
+
+#Lb3{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 6mm;
+    margin-left: 3mm;
+}
+
+#Lb4{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 15mm;
+    margin-left: 3mm;
+}
+
+#firstname{
+    width: 6cm;
+    height: 4.5mm;
+    position: relative;
+    top: 8mm;
+    margin-left: 3mm;
+}
+
+#lastname{
+    width: 6cm;
+    height: 4.5mm;
+    position: relative;
+    top: 17mm;
+    margin-left: 3mm;
+}
